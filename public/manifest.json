@@ -1,0 +1,40 @@
+{
+  "short_name": "Ellon",
+  "name": "Ellon - Học từ vựng",
+  "description": "Ứng dụng học từ vựng thông minh",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1890ff",
+  "background_color": "#ffffff",
+  "prefer_related_applications": false,
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Màn hình học từ vựng"
+    }
+  ]
+}

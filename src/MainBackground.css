@@ -1,0 +1,52 @@
+.main-bg {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  /* Hiệu ứng sóng động nhẹ */
+  .main-bg::before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 0; height: 320px;
+    background: url('https://www.transparenttextures.com/patterns/symphony.png'), linear-gradient(120deg, #fbc2eb88 0%, #a6c1ee88 100%);
+    opacity: 0.5;
+    z-index: 0;
+  }
+  
+  .main-bg::after {
+    content: '';
+    position: absolute;
+    right: -120px; bottom: -120px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, #fbc2eb55 0%, #a18cd100 80%);
+    filter: blur(8px);
+    z-index: 0;
+  }
+  
+  .sidebar-glass {
+    border-right: 2px solid #fff3;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  }
+  
+  .sidebar-menu .ant-menu-item {
+    border-radius: 12px;
+    margin: 8px 0;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .sidebar-menu .ant-menu-item-selected {
+    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    color: #fff !important;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #fbc2eb44;
+  }
+  
+  .sidebar-menu .ant-menu-item:hover {
+    background: #fbc2eb33;
+    color: #a18cd1 !important;
+  }
+  

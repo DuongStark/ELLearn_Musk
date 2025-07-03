@@ -1,0 +1,21 @@
+#scrollableDiv {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db transparent;
+}
+
+#scrollableDiv::-webkit-scrollbar {
+  width: 6px;
+}
+
+#scrollableDiv::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 3px;
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb:hover {
+  background-color: #9ca3af;
+} 

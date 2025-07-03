@@ -4,7 +4,7 @@ import { UserOutlined, LockOutlined, GoogleOutlined } from '@ant-design/icons';
 
 const { Title, Text } = Typography;
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.REACT_APP_API_URL || "https://ellearnmuskbackend-production.up.railway.app/api";
 
 function Login({ onLogin, onSwitchToRegister }) {
   const [loading, setLoading] = useState(false);

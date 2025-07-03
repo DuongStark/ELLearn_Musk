@@ -84,7 +84,7 @@ function BulkAddWords({ onBulkAdd, wordSets = [], addWordSet, fetchWords, fetchW
 
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch((process.env.REACT_APP_API_URL || "http://localhost:5000/api") + "/words", {
+      const res = await fetch((process.env.REACT_APP_API_URL || "https://ellearnmuskbackend-production.up.railway.app/api") + "/words", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
